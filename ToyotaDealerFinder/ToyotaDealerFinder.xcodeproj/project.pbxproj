@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D79BD7CD14D2FB16009B3A71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79BD7CC14D2FB16009B3A71 /* UIKit.framework */; };
+		D79BD7CF14D2FB16009B3A71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79BD7CE14D2FB16009B3A71 /* Foundation.framework */; };
+		D79BD7D114D2FB16009B3A71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D79BD7D014D2FB16009B3A71 /* CoreGraphics.framework */; };
+		D79BD7D714D2FB16009B3A71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D79BD7D514D2FB16009B3A71 /* InfoPlist.strings */; };
+		D79BD7D914D2FB16009B3A71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D79BD7D814D2FB16009B3A71 /* main.m */; };
+		D79BD7DD14D2FB16009B3A71 /* DealerFinderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D79BD7DC14D2FB16009B3A71 /* DealerFinderAppDelegate.m */; };
+		D79BD7E014D2FB16009B3A71 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79BD7DE14D2FB16009B3A71 /* MainStoryboard.storyboard */; };
+		D79BD7E314D2FB16009B3A71 /* DealerFinderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D79BD7E214D2FB16009B3A71 /* DealerFinderViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D79BD7C814D2FB16009B3A71 /* ToyotaDealerFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToyotaDealerFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79BD7CC14D2FB16009B3A71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D79BD7CE14D2FB16009B3A71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D79BD7D014D2FB16009B3A71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D79BD7D414D2FB16009B3A71 /* ToyotaDealerFinder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToyotaDealerFinder-Info.plist"; sourceTree = "<group>"; };
+		D79BD7D614D2FB16009B3A71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D79BD7D814D2FB16009B3A71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D79BD7DA14D2FB16009B3A71 /* ToyotaDealerFinder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToyotaDealerFinder-Prefix.pch"; sourceTree = "<group>"; };
+		D79BD7DB14D2FB16009B3A71 /* DealerFinderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DealerFinderAppDelegate.h; sourceTree = "<group>"; };
+		D79BD7DC14D2FB16009B3A71 /* DealerFinderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DealerFinderAppDelegate.m; sourceTree = "<group>"; };
+		D79BD7DF14D2FB16009B3A71 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D79BD7E114D2FB16009B3A71 /* DealerFinderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DealerFinderViewController.h; sourceTree = "<group>"; };
+		D79BD7E214D2FB16009B3A71 /* DealerFinderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DealerFinderViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D79BD7C514D2FB16009B3A71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79BD7CD14D2FB16009B3A71 /* UIKit.framework in Frameworks */,
+				D79BD7CF14D2FB16009B3A71 /* Foundation.framework in Frameworks */,
+				D79BD7D114D2FB16009B3A71 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D79BD7BD14D2FB16009B3A71 = {
+			isa = PBXGroup;
+			children = (
+				D79BD7D214D2FB16009B3A71 /* ToyotaDealerFinder */,
+				D79BD7CB14D2FB16009B3A71 /* Frameworks */,
+				D79BD7C914D2FB16009B3A71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D79BD7C914D2FB16009B3A71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D79BD7C814D2FB16009B3A71 /* ToyotaDealerFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D79BD7CB14D2FB16009B3A71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D79BD7CC14D2FB16009B3A71 /* UIKit.framework */,
+				D79BD7CE14D2FB16009B3A71 /* Foundation.framework */,
+				D79BD7D014D2FB16009B3A71 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D79BD7D214D2FB16009B3A71 /* ToyotaDealerFinder */ = {
+			isa = PBXGroup;
+			children = (
+				D79BD7DB14D2FB16009B3A71 /* DealerFinderAppDelegate.h */,
+				D79BD7DC14D2FB16009B3A71 /* DealerFinderAppDelegate.m */,
+				D79BD7DE14D2FB16009B3A71 /* MainStoryboard.storyboard */,
+				D79BD7E114D2FB16009B3A71 /* DealerFinderViewController.h */,
+				D79BD7E214D2FB16009B3A71 /* DealerFinderViewController.m */,
+				D79BD7D314D2FB16009B3A71 /* Supporting Files */,
+			);
+			path = ToyotaDealerFinder;
+			sourceTree = "<group>";
+		};
+		D79BD7D314D2FB16009B3A71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D79BD7D414D2FB16009B3A71 /* ToyotaDealerFinder-Info.plist */,
+				D79BD7D514D2FB16009B3A71 /* InfoPlist.strings */,
+				D79BD7D814D2FB16009B3A71 /* main.m */,
+				D79BD7DA14D2FB16009B3A71 /* ToyotaDealerFinder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D79BD7C714D2FB16009B3A71 /* ToyotaDealerFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D79BD7E614D2FB16009B3A71 /* Build configuration list for PBXNativeTarget "ToyotaDealerFinder" */;
+			buildPhases = (
+				D79BD7C414D2FB16009B3A71 /* Sources */,
+				D79BD7C514D2FB16009B3A71 /* Frameworks */,
+				D79BD7C614D2FB16009B3A71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToyotaDealerFinder;
+			productName = ToyotaDealerFinder;
+			productReference = D79BD7C814D2FB16009B3A71 /* ToyotaDealerFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D79BD7BF14D2FB16009B3A71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = D79BD7C214D2FB16009B3A71 /* Build configuration list for PBXProject "ToyotaDealerFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D79BD7BD14D2FB16009B3A71;
+			productRefGroup = D79BD7C914D2FB16009B3A71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D79BD7C714D2FB16009B3A71 /* ToyotaDealerFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D79BD7C614D2FB16009B3A71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79BD7D714D2FB16009B3A71 /* InfoPlist.strings in Resources */,
+				D79BD7E014D2FB16009B3A71 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D79BD7C414D2FB16009B3A71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79BD7D914D2FB16009B3A71 /* main.m in Sources */,
+				D79BD7DD14D2FB16009B3A71 /* DealerFinderAppDelegate.m in Sources */,
+				D79BD7E314D2FB16009B3A71 /* DealerFinderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D79BD7D514D2FB16009B3A71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D79BD7D614D2FB16009B3A71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D79BD7DE14D2FB16009B3A71 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D79BD7DF14D2FB16009B3A71 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D79BD7E414D2FB16009B3A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D79BD7E514D2FB16009B3A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D79BD7E714D2FB16009B3A71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToyotaDealerFinder/ToyotaDealerFinder-Prefix.pch";
+				INFOPLIST_FILE = "ToyotaDealerFinder/ToyotaDealerFinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D79BD7E814D2FB16009B3A71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToyotaDealerFinder/ToyotaDealerFinder-Prefix.pch";
+				INFOPLIST_FILE = "ToyotaDealerFinder/ToyotaDealerFinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D79BD7C214D2FB16009B3A71 /* Build configuration list for PBXProject "ToyotaDealerFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79BD7E414D2FB16009B3A71 /* Debug */,
+				D79BD7E514D2FB16009B3A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D79BD7E614D2FB16009B3A71 /* Build configuration list for PBXNativeTarget "ToyotaDealerFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D79BD7E714D2FB16009B3A71 /* Debug */,
+				D79BD7E814D2FB16009B3A71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D79BD7BF14D2FB16009B3A71 /* Project object */;
+}

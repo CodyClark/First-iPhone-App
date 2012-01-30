@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[DealerFinderViewController parser:didStartElement:namespaceURI:qualifiedName:attributes:]:DealerFinderViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "elementName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
